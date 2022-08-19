@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2804DDAC28AFE0AF00D0D1F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2804DDAA28AFE0AF00D0D1F0 /* Main.storyboard */; };
 		28B4DB5228AFCBF600EB895C /* ContactListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B4DB5128AFCBF600EB895C /* ContactListViewController.swift */; };
-		28B4DB5528AFD45E00EB895C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28B4DB5328AFD45E00EB895C /* Main.storyboard */; };
 		28F250FC28AE94F3001802F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F250FB28AE94F3001802F6 /* AppDelegate.swift */; };
 		28F250FE28AE94F3001802F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F250FD28AE94F3001802F6 /* SceneDelegate.swift */; };
 		28F2510028AE94F3001802F6 /* DetailContacsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F250FF28AE94F3001802F6 /* DetailContacsViewController.swift */; };
@@ -21,8 +21,8 @@
 
 /* Begin PBXFileReference section */
 		17341D23CE85D0A144B73003 /* Pods-ContactListApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactListApp.release.xcconfig"; path = "Target Support Files/Pods-ContactListApp/Pods-ContactListApp.release.xcconfig"; sourceTree = "<group>"; };
+		2804DDAB28AFE0AF00D0D1F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		28B4DB5128AFCBF600EB895C /* ContactListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListViewController.swift; sourceTree = "<group>"; };
-		28B4DB5428AFD45E00EB895C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../../../Downloads/HW/ContactList/ContactList/Storyboards/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		28F250F828AE94F3001802F6 /* ContactListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28F250FB28AE94F3001802F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28F250FD28AE94F3001802F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -100,7 +100,7 @@
 		28F2511328AF9BC2001802F6 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				28B4DB5328AFD45E00EB895C /* Main.storyboard */,
+				2804DDAA28AFE0AF00D0D1F0 /* Main.storyboard */,
 				28F2510628AE94F8001802F6 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
@@ -208,7 +208,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28B4DB5528AFD45E00EB895C /* Main.storyboard in Resources */,
+				2804DDAC28AFE0AF00D0D1F0 /* Main.storyboard in Resources */,
 				28F2510828AE94F8001802F6 /* LaunchScreen.storyboard in Resources */,
 				28F2510528AE94F8001802F6 /* Assets.xcassets in Resources */,
 			);
@@ -275,10 +275,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		28B4DB5328AFD45E00EB895C /* Main.storyboard */ = {
+		2804DDAA28AFE0AF00D0D1F0 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				28B4DB5428AFD45E00EB895C /* Base */,
+				2804DDAB28AFE0AF00D0D1F0 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
