@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28B4DB5228AFCBF600EB895C /* ContactListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B4DB5128AFCBF600EB895C /* ContactListViewController.swift */; };
+		28B4DB5528AFD45E00EB895C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28B4DB5328AFD45E00EB895C /* Main.storyboard */; };
 		28F250FC28AE94F3001802F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F250FB28AE94F3001802F6 /* AppDelegate.swift */; };
 		28F250FE28AE94F3001802F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F250FD28AE94F3001802F6 /* SceneDelegate.swift */; };
-		28F2510028AE94F3001802F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F250FF28AE94F3001802F6 /* ViewController.swift */; };
-		28F2510328AE94F3001802F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F2510128AE94F3001802F6 /* Main.storyboard */; };
+		28F2510028AE94F3001802F6 /* DetailContacsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F250FF28AE94F3001802F6 /* DetailContacsViewController.swift */; };
 		28F2510528AE94F8001802F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28F2510428AE94F8001802F6 /* Assets.xcassets */; };
 		28F2510828AE94F8001802F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F2510628AE94F8001802F6 /* LaunchScreen.storyboard */; };
+		28F2511028AE951B001802F6 /* RandomUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F2510F28AE951B001802F6 /* RandomUser.swift */; };
+		28F2511728AF9CA9001802F6 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F2511628AF9CA9001802F6 /* NetworkManager.swift */; };
+		C55284F81CDABE2D91F70477 /* Pods_ContactListApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C22762C1830B73ADFAF13370 /* Pods_ContactListApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17341D23CE85D0A144B73003 /* Pods-ContactListApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactListApp.release.xcconfig"; path = "Target Support Files/Pods-ContactListApp/Pods-ContactListApp.release.xcconfig"; sourceTree = "<group>"; };
+		28B4DB5128AFCBF600EB895C /* ContactListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListViewController.swift; sourceTree = "<group>"; };
+		28B4DB5428AFD45E00EB895C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../../../Downloads/HW/ContactList/ContactList/Storyboards/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		28F250F828AE94F3001802F6 /* ContactListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28F250FB28AE94F3001802F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28F250FD28AE94F3001802F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		28F250FF28AE94F3001802F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		28F2510228AE94F3001802F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28F250FF28AE94F3001802F6 /* DetailContacsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailContacsViewController.swift; sourceTree = "<group>"; };
 		28F2510428AE94F8001802F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28F2510728AE94F8001802F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28F2510928AE94F8001802F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28F2510F28AE951B001802F6 /* RandomUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUser.swift; sourceTree = "<group>"; };
+		28F2511628AF9CA9001802F6 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		C22762C1830B73ADFAF13370 /* Pods_ContactListApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ContactListApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5EAB9034085BE30246D9D8 /* Pods-ContactListApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactListApp.debug.xcconfig"; path = "Target Support Files/Pods-ContactListApp/Pods-ContactListApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C55284F81CDABE2D91F70477 /* Pods_ContactListApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +53,8 @@
 			children = (
 				28F250FA28AE94F3001802F6 /* ContactListApp */,
 				28F250F928AE94F3001802F6 /* Products */,
+				5662199EC25CB9801075FC49 /* Pods */,
+				9B61F36087CCB0910A7FA678 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +69,83 @@
 		28F250FA28AE94F3001802F6 /* ContactListApp */ = {
 			isa = PBXGroup;
 			children = (
-				28F250FB28AE94F3001802F6 /* AppDelegate.swift */,
-				28F250FD28AE94F3001802F6 /* SceneDelegate.swift */,
-				28F250FF28AE94F3001802F6 /* ViewController.swift */,
-				28F2510128AE94F3001802F6 /* Main.storyboard */,
-				28F2510428AE94F8001802F6 /* Assets.xcassets */,
-				28F2510628AE94F8001802F6 /* LaunchScreen.storyboard */,
-				28F2510928AE94F8001802F6 /* Info.plist */,
+				28F2511828AF9CBB001802F6 /* Services */,
+				28F2511228AF9BB4001802F6 /* App */,
+				28F2511428AF9BD1001802F6 /* ViewControllers */,
+				28F2511328AF9BC2001802F6 /* Storyboards */,
+				28F2511528AF9C64001802F6 /* Source */,
+				28F2511128AF9AF5001802F6 /* Models */,
 			);
 			path = ContactListApp;
+			sourceTree = "<group>";
+		};
+		28F2511128AF9AF5001802F6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				28F2510F28AE951B001802F6 /* RandomUser.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		28F2511228AF9BB4001802F6 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				28F250FB28AE94F3001802F6 /* AppDelegate.swift */,
+				28F250FD28AE94F3001802F6 /* SceneDelegate.swift */,
+				28F2510928AE94F8001802F6 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		28F2511328AF9BC2001802F6 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				28B4DB5328AFD45E00EB895C /* Main.storyboard */,
+				28F2510628AE94F8001802F6 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		28F2511428AF9BD1001802F6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				28F250FF28AE94F3001802F6 /* DetailContacsViewController.swift */,
+				28B4DB5128AFCBF600EB895C /* ContactListViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		28F2511528AF9C64001802F6 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				28F2510428AE94F8001802F6 /* Assets.xcassets */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		28F2511828AF9CBB001802F6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				28F2511628AF9CA9001802F6 /* NetworkManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		5662199EC25CB9801075FC49 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC5EAB9034085BE30246D9D8 /* Pods-ContactListApp.debug.xcconfig */,
+				17341D23CE85D0A144B73003 /* Pods-ContactListApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9B61F36087CCB0910A7FA678 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C22762C1830B73ADFAF13370 /* Pods_ContactListApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +155,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 28F2510C28AE94F8001802F6 /* Build configuration list for PBXNativeTarget "ContactListApp" */;
 			buildPhases = (
+				DCF7463E2C38CC3B1373E6B1 /* [CP] Check Pods Manifest.lock */,
 				28F250F428AE94F3001802F6 /* Sources */,
 				28F250F528AE94F3001802F6 /* Frameworks */,
 				28F250F628AE94F3001802F6 /* Resources */,
+				0B6F32E45AB3F622D7AA199C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,32 +208,77 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28B4DB5528AFD45E00EB895C /* Main.storyboard in Resources */,
 				28F2510828AE94F8001802F6 /* LaunchScreen.storyboard in Resources */,
 				28F2510528AE94F8001802F6 /* Assets.xcassets in Resources */,
-				28F2510328AE94F3001802F6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B6F32E45AB3F622D7AA199C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ContactListApp/Pods-ContactListApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ContactListApp/Pods-ContactListApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ContactListApp/Pods-ContactListApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCF7463E2C38CC3B1373E6B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ContactListApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		28F250F428AE94F3001802F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28F2510028AE94F3001802F6 /* ViewController.swift in Sources */,
+				28F2511028AE951B001802F6 /* RandomUser.swift in Sources */,
+				28F2510028AE94F3001802F6 /* DetailContacsViewController.swift in Sources */,
+				28F2511728AF9CA9001802F6 /* NetworkManager.swift in Sources */,
 				28F250FC28AE94F3001802F6 /* AppDelegate.swift in Sources */,
 				28F250FE28AE94F3001802F6 /* SceneDelegate.swift in Sources */,
+				28B4DB5228AFCBF600EB895C /* ContactListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		28F2510128AE94F3001802F6 /* Main.storyboard */ = {
+		28B4DB5328AFD45E00EB895C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				28F2510228AE94F3001802F6 /* Base */,
+				28B4DB5428AFD45E00EB895C /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -282,6 +410,7 @@
 		};
 		28F2510D28AE94F8001802F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC5EAB9034085BE30246D9D8 /* Pods-ContactListApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -289,10 +418,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Y39DR36W5X;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ContactListApp/Info.plist;
+				INFOPLIST_FILE = ContactListApp/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -304,12 +434,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		28F2510E28AE94F8001802F6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17341D23CE85D0A144B73003 /* Pods-ContactListApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -317,10 +448,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Y39DR36W5X;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ContactListApp/Info.plist;
+				INFOPLIST_FILE = ContactListApp/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -332,7 +464,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
